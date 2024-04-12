@@ -653,7 +653,7 @@ Install_Bt(){
 	# 	panelPort=$(cat ${setup_path}/server/panel/data/port.pl)
 	# else
 	# 	panelPort=$(expr $RANDOM % 55535 + 10000)
-	fi
+	# fi
 	if [ "${PANEL_PORT}" ];then
 		panelPort=$PANEL_PORT
 	fi
