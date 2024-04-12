@@ -649,8 +649,8 @@ Install_Python_Lib(){
 }
 Install_Bt(){
 	panelPort="47803"
-	if [ -f ${setup_path}/server/panel/data/port.pl ];then
-		panelPort=$(cat ${setup_path}/server/panel/data/port.pl)
+	# if [ -f ${setup_path}/server/panel/data/port.pl ];then
+	# 	panelPort=$(cat ${setup_path}/server/panel/data/port.pl)
 	# else
 	# 	panelPort=$(expr $RANDOM % 55535 + 10000)
 	fi
